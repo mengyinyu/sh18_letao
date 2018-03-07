@@ -103,3 +103,25 @@ img {
 .lt_footer li.now p {
   color: darkorange;
 }
+
+.lt_search {
+  padding: 10px;
+  position: relative;
+}
+
+.lt_search input {
+  height: 34px;
+  padding: 0;
+  margin: 0;
+  padding-left: 10px;
+  border: 1px solid #007aff;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.lt_search button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border-radius: 0 5px 5px 0;
+}
